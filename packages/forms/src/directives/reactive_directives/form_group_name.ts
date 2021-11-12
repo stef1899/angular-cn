@@ -149,7 +149,7 @@ export const formArrayNameProvider: any = {
  * will look for a `FormArray` registered with that name in the parent
  * `FormGroup` instance you passed into `FormGroupDirective`.
  *
- * 它接受你要链接的嵌套 `FormArray` 的字符串名称，并寻找使用这个名字在你传给 `FormGroupDirective` 的父 `FormGroup` 实例中注册的 `FormGroup`。
+ * 它接受你要链接的嵌套 `FormArray` 的字符串名称，并使用这个名字在你传给 `FormGroupDirective` 的父 `FormGroup` 实例中寻找注册的 `FormArray`。
  *
  * @see [Reactive Forms Guide](guide/reactive-forms)
  *
